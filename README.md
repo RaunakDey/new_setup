@@ -1,4 +1,5 @@
 # Setting up a new UNIX based device (Mac/Ubuntu/Debian)
+## A mini tutorial by Raunak Dey
 For example, here we are setting up new MacBook M3
 
 
