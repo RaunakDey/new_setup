@@ -1,5 +1,5 @@
-# new_setup
-Setting up new MacBook M3
+# Setting up a new UNIX based device (Mac/Ubuntu/Debian)
+For example, here we are setting up new MacBook M3
 
 
 ### Few checks to see what it comes with
