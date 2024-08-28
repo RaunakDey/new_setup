@@ -48,6 +48,16 @@ Now I can keep on using pip (my favourite package manager) to keep on installing
 
 
 ### Setting up my GitHub (private ssh keys)
+```
+ssh-keygen -t ed25519 -C "youremail@example.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+pbcopy < ~/.ssh/id_ed25519.pub
+```
+Paste the public key in Github -- private key remains in local. Now you can check and github authentication (one device to one account) should be working
+```
+ssh -T git@github.com
+```
 
 
 
