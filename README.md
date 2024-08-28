@@ -68,6 +68,15 @@ I suggest set up jupyter outside anaconda as well. (I will rarely use anaconda).
 
 ### Setting up environmental PATH variables (global)
 
+Some of the scripts installed through pip will not work until I place the python home in the global PATH variable.
 
+```
+nano ~/.zshrc
+export PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:$PATH" #goes in the file
+source ~/.zshrc
+echo $PATH #check path
+```
+
+Now it should be in the global path
 
 
