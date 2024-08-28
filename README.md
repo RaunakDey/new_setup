@@ -39,4 +39,25 @@ source ~/.zshrc
 
 (Similarly I could also have used the bash to do this, I am using just the default case)
 
+Now I can keep on using pip (my favourite package manager) to keep on installing stuff to the global environment without any problem.
+
+
+### Setting up a venv 
+
+
+
+
+### Setting up my GitHub (private ssh keys)
+
+
+
+### Setting up my anaconda environment and VSCode
+Simply downlaod it. This python will not be the same as the python in the alias which I had set up previously. I can manually choose the interpreter of which python for VSCode, but all the packages needs to be redone for both Jupyter and VSCode.
+I suggest set up jupyter outside anaconda as well. (I will rarely use anaconda). Please note that the jupyter from conda or miniconda or anaconda is different from the one installed through pip.
+
+
+### Setting up environmental PATH variables (global)
+
+
+
 
