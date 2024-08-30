@@ -43,9 +43,6 @@ source ~/.zshrc
 Now I can keep on using pip (my favourite package manager) to keep on installing stuff to the global environment without any problem.
 
 
-### Setting up a venv 
-
-
 
 
 ### Setting up my GitHub (private ssh keys)
@@ -109,3 +106,7 @@ echo $PATH #check path
 Now it should be in the global path
 
 
+
+### Setting up a venv (to be done)
+
+I will write about how to set up a virtual environment and manage your packages; how to set up setup-tools or requirements.txt files. 
