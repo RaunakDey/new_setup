@@ -60,7 +60,35 @@ Paste the public key in Github -- private key remains in local. Now you can chec
 ssh -T git@github.com
 ```
 
+### Setting up GitHub global config
+I recommend setting up global user name and email -- so when you push to GitHUb using the SSH keys this will be reflected as your work not from the username of the admin. To do so all we need to do is set up a Config file and 
 
+```
+nano ~/.ssh/config
+```
+
+Write inside the config file. 
+``` 
+Host github.com
+    User git
+    HostName github.com
+    IdentityFile ~/.ssh/id_rsa
+    UseKeychain yes
+    AddKeysToAgent yes
+
+```
+Next set up the config for user name and password .
+
+```
+nano ~/.gitconfig
+```
+and write inside this file
+```
+[user]
+    name = Your Name
+    email = your_email@example.com
+```
+Now this is all set and if you push, GitHub should know that it is you.
 
 ### Setting up my anaconda environment and VSCode
 Simply downlaod it. This python will not be the same as the python in the alias which I had set up previously. I can manually choose the interpreter of which python for VSCode, but all the packages needs to be redone for both Jupyter and VSCode.
